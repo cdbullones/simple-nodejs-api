@@ -23,7 +23,7 @@ const writeData = (data) => {
 }
  
 app.get("/", (req, res) => {
-    res.send("Hello World en node js");
+    res.send("Simple API Rest con Node JS y Express");
 })
 
 app.get("/books", (req, res) => {
